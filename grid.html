@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .row>div {
+            background: #f2f2f2;
+            margin: 10px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- El container es el contenedor principal, en el iran todas las filas y columnas -->
+    <!-- Con el container podemos centrar nuestra pagina -->
+
+    <div class="container">
+        <!-- Las filas (row) son grupos HORIZONTALES de columnas -->
+        <div class="row">
+            <!-- Todo el contenido debe ir dentro de las columanas (col) -->
+            <!-- y las columnas deben ir directamente dentro de las filas (row) -->
+            <!-- NUEVO:
+            Los tamaños de Columnas en BOOTSTRAP 4 son:
+                .col        Extra pequeño (extra Small)- Smartphones Vertical        Menos de 544px
+                .col-sm     PEequeñp (small) Smartphones Vertical                    Mas de 544px y menos de 768px 
+                .col-md     Mediano (medium) . tablets                               mas de  768px y menos de  992px
+                .col-lg     Largo (Large) - comútadoras                              Mas de 992px y Nenos de 1200px
+                .col-xl     Exta Largo (Extra Large) - Computadoras                  Mas de 1200 -->
+
+            <div class="col-12 col-sm-6 col-md">
+                <h1>Hola Mundo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit consequuntur ex ut eveniet sapiente
+                    sunt quia
+                    cumque nobis eaque molestiae, mollitia praesentium corrupti totam quos, ipsam est fuga impedit
+                    nulla.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md">
+                <h1>Hola Mundo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit consequuntur ex ut eveniet sapiente
+                    sunt quia
+                    cumque nobis eaque molestiae, mollitia praesentium corrupti totam quos, ipsam est fuga impedit
+                    nulla.</p>
+            </div>
+            <div class="col-12 col-sm col-md col-lg">
+                <h1>Hola Mundo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit consequuntur ex ut eveniet sapiente
+                    sunt quia
+                    cumque nobis eaque molestiae, mollitia praesentium corrupti totam quos, ipsam est fuga impedit
+                    nulla.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
