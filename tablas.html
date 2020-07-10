@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Utilities</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+      
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- table-inverse: nos permite cambiar los colores de la tabla a oscuros -->
+                <!-- table-striped: nos permite alternar colores entre cada fila -->
+                <!-- table-bordered: nos permite agregarle bordes a la tabla -->
+                <!-- table-hover: nos permite agregarle un hover a las filas -->
+                <!-- table-sm: nos permite hacer mas pequeña la tabla -->
+                <!-- table-responsive: nos permite permite adaptar la tabla a dispositivos mobiles -->
+                <table class="table table-inverse table-bordered table-hover table-sm table-reponsive">
+                    <!-- tambien podemos cambiar el thead a oscuro con thead.inverse -->
+                    <!-- otra alternativa es. thead-default -->
+                    <thead class="thead-deafault">
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Pais</th>
+                    </thead>
+
+                    <!-- table-active -->
+                    <!-- table-success -->
+                    <!-- table-warnig -->
+                    <!-- table-danger -->
+                    <!-- table info -->
+
+                    <tr class="table-info">
+                        <td>Carlos</td>
+                        <td>21</td>
+                        <td>Peru</td>
+
+                    </tr>
+
+                    <tr class="table-active">
+                        <td>Alejandra</td>
+                        <td>34</td>
+                        <td>España</td>
+                    </tr>
+
+                    <tr class="bg-danger">
+                        <td>Moises</td>
+                        <td>36</td>
+                        <td>Peru</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+         
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    
+</body>
+
+</html>
