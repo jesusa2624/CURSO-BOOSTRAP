@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Utilities</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12">
+                <form action="">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre">contraseña</label>
+                        <input type="password" class="form-control" placeholder="Contraseña" name="pass" id="pass">
+                    </div>
+                    <div class="form-group">
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="pais">Pais</label>
+                        <select name="pais" id="pais" class="form-control">
+                            <option value="Peru">Peru</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                        <label for="form-check-label">
+                            <input type="radio" name="sexo" id="hombre" class="form-check-input mr-2">Hombre
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label for="form-check-label">
+                            <input type="radio" name="sexo" id="mujer" class="form-check-input mr-2">Mujer
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label for="form-check-label">
+                            <input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto terminos y condiciones
+                        </label>
+                    </div>
+
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
